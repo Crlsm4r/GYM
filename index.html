@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GYM PONTE DURO</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="contenido">
+  <header>
+    <h1>GYM PONTE DURO</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section id="inicio" class="hero">
+    <h2>Bienvenido a PONTE DURO</h2>
+    <img src="img/man.jpg" alt="man">
+    <p>El mejor lugar para ponerte fierraso sin polvo de unicornio.</p>
+    <a href="#contacto" class="btn">¡Inscríbete ahora!</a>
+  </section>
+  
+  <section id="servicios" class="services">
+    <h2>Nuestros Servicios</h2>
+    <div class="serv">
+      <img src="img/gym1.jpg" alt="servicios">
+    </div>
+    
+    <ul>
+      <li>Entrenamiento personalizado</li>
+      <li>Clases de grupo: yoga, spinning, zumba, etc.</li>
+      <li>Área de musculación y cardio</li>
+      <li>Sauna y jacuzzi</li>
+    </ul>
+  </section>
+  
+  <section id="contacto" class="contact">
+    <h2>Contacto</h2>
+    <p>Ponte en contacto con nosotros para más información o para reservar tu primera sesión gratuita.</p>
+    <form action="submit.php" method="post">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+  
+  <footer>
+    <p>&copy; 2024 GYM PONTE DURO</p>
+  </footer>
+</div>
+<script src="scripts.js"></script>
+</body>
+</html>
