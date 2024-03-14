@@ -53,9 +53,17 @@
   #servicios {
     background-color: rgb(115, 112, 112);
     color: white;
-    padding: 50px;
-    width: 100%;
+    padding: 10px 0px 10px 0px;
+    width: 108%;
     text-align: center;
+  }
+
+  #servicios ul{
+    font-size: 20px;
+  }
+
+  #servicios h2{
+    font-size: 30px;
   }
   
   /* Estilos de la Sección de Contacto */
